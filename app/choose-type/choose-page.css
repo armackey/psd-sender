@@ -1,0 +1,13 @@
+.center {
+  text-align: center;
+}
+
+Button {
+  background-color: #6AB5FF;
+  margin: 5 5;
+  color: white;
+}
+
+.other {
+  text-decoration: underline;
+}

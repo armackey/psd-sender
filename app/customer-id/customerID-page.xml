@@ -1,0 +1,9 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+    <Page.actionBar>
+    </Page.actionBar>
+    <StackLayout class="p-20">
+        <TextField class="textField" hint="customer id" text="{{ customerID }}"></TextField>
+        <TextField class="textField" hint="verify id" text="{{ verifyID }}"></TextField>
+        <Button class="button" text="Next" tap="{{ sendToChooseTypePage }}"></Button>
+    </StackLayout>
+</Page>
